@@ -4,31 +4,14 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Netflix</title>
-        
-        <style> 
-            h1, h2, h3 {  color: white;  }
-            body {
-                background-image: url("./images/netflix-backgroud.jpg");
-                background-size: cover;
-            }
-            #logo-netflix {
-                width: 120px;
-                padding: 5px;
-                
-            }
-            .cabecalho {
-                padding: 10px;
-
-            }
-
-
-        </style>
-        
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="shortcut icon" href="images/favicon.png" type="png" />
     </head>
 
     <body>
         <header class="cabecalho">
-            <img id="logo-netflix"
+            <img
+                class="logo-netflix"
                 src="./images/netflix-logo.png"
                 alt="logo da netflix: a palavra netflix escrita em vermelho"
             />
@@ -37,18 +20,21 @@
                 <button>Entrar</button>
             </a>
         </header>
-        
-        <h1>Filmes, séries e muito mais, sem limites</h1>
 
-        <h2>Assista onde quiser. Cancele quando quiser.</h2>
+        <main>
+            <h1>Filmes, séries e muito mais, sem limites</h1>
 
-        <h3>
-            Quer assistir? Informe seu email para criar ou reiniciar sua
-            assinatura.
-        </h3>
+            <h2>Assista onde quiser. Cancele quando quiser.</h2>
 
-        <input type="text" />
+            <h3>
+                Quer assistir? Informe seu email para criar ou reiniciar sua
+                assinatura.
+            </h3>
 
-        <button>Vamos lá</button>
+            <section class="insere-email">
+                <input type="text" placeholder="E-mail"/>
+                <button>Vamos lá</button>
+            </section>
+        </main>
     </body>
 </html>
