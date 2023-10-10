@@ -8,7 +8,6 @@ main {
     font-family: Calibri, 'Trebuchet MS', sans-serif
 }
 
-
 .margem {
     margin: 1%;
 }
@@ -37,6 +36,7 @@ body {
 
 .cabecalho {
     padding: 10px;
+
     display: flex;
     justify-content:space-between;
     
@@ -63,7 +63,11 @@ body {
 .logo-netflix {
     width: 120px;
     padding: 5px;
-    
+}
+
+.logo-netflix:hover {
+    animation: balanco 3s ease infinite;
+
 }
 
 .insere-email {
@@ -87,5 +91,22 @@ body {
     background-color: #ff0000;
     width: 18%;
     border-radius: 5px;
-    cursor: pointer;
+    cursor: pointer;    
+}
+
+@keyframes balanco {
+    
+    
+    20% {
+        transform: rotate(10deg);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+    }
+
+    80% {
+        transform: rotate(10deg);
+    }
+
 }
