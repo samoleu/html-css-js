@@ -1,0 +1,91 @@
+main { 
+    color: #fff;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 20%;
+    font-family: Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+.margem {
+    margin: 1%;
+}
+
+.titulo1 {
+    font-size:xx-large;
+    font-weight: bold;
+}
+
+.titulo2 {
+    font-size:x-large;
+    font-weight: bold;
+}
+
+.titulo3 {
+    font-size:medium;
+}
+
+body {
+    background-image: url("./images/netflix-backgroud.jpg"), linear-gradient(to bottom, black, transparent 40%);
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.cabecalho {
+    padding: 10px;
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.cabecalho a {
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.cabecalho a button {
+    background-color: #ff0000;
+    color: #fff;
+    font-size: 90%;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 70px;
+    height: 25px;
+}
+
+.logo-netflix {
+    width: 120px;
+    padding: 5px;
+    
+}
+
+.insere-email {
+    margin: 2% 0%;
+    width: 60%;
+    height: 40px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.insere-email input {
+    padding-left: 4%;
+    width: 70%;
+    border-radius: 5px;
+}
+
+.insere-email button {
+    color: #fff;
+    font-size: 90%;
+    font-weight: bold;
+    background-color: #ff0000;
+    width: 18%;
+    border-radius: 5px;
+    cursor: pointer;
+}
