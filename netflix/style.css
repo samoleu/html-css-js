@@ -1,11 +1,11 @@
-main { 
-    color: #fff;  
+main {
+    color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 5% 20%;
-    font-family: Calibri, 'Trebuchet MS', sans-serif
+    font-family: Calibri, "Trebuchet MS", sans-serif;
 }
 
 .margem {
@@ -13,33 +13,32 @@ main {
 }
 
 .titulo1 {
-    font-size:xx-large;
+    font-size: xx-large;
     font-weight: bold;
 }
 
 .titulo2 {
-    font-size:x-large;
+    font-size: x-large;
     font-weight: bold;
 }
 
 .titulo3 {
-    font-size:medium;
+    font-size: medium;
 }
 
 body {
-    background-image: url("./images/netflix-backgroud.jpg"), linear-gradient(to bottom, black, transparent 40%);
+    background-image: url("./images/netflix-backgroud.jpg"),
+        linear-gradient(to bottom, black, transparent 40%);
     background-blend-mode: multiply;
     background-size: cover;
     height: 100vh;
-    
 }
 
 .cabecalho {
     padding: 10px;
 
     display: flex;
-    justify-content:space-between;
-    
+    justify-content: space-between;
 }
 
 .cabecalho a {
@@ -67,36 +66,34 @@ body {
 
 .logo-netflix:hover {
     animation: balanco 3s ease infinite;
-
+    cursor: pointer;
 }
 
-.insere-email {
+.insere-email form {
     margin: 2% 0%;
-    width: 60%;
+    width: 40rem;
     height: 40px;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-around;
 }
 
-.insere-email input {
+.insere-email form input {
     padding-left: 4%;
     width: 70%;
     border-radius: 5px;
 }
 
-.insere-email button {
+.insere-email form button {
     color: #fff;
     font-size: 90%;
     font-weight: bold;
     background-color: #ff0000;
     width: 18%;
     border-radius: 5px;
-    cursor: pointer;    
+    cursor: pointer;
 }
 
 @keyframes balanco {
-    
-    
     20% {
         transform: rotate(10deg);
     }
@@ -108,5 +105,4 @@ body {
     80% {
         transform: rotate(10deg);
     }
-
 }
