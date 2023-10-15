@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans MT', sans-serif;
+}
+
+.cabecalho ul {
+    display: flex;
+}
+
+.cabecalho ul li {
+    display: flex;
+    justify-content: space-around;
+    margin: 1vw;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+
+.cabecalho {
+    display: flex;
+    padding: 2vw;
+    height: 3vw;
+    align-items: center;
+}     
+
+.cabecalho img {
+    margin-right: 5vw;
+    height: 3vw;
+}
+
+header {
+    background-image: url("../img/fundo-cabecalho.png");
+    height: 70vh;
+    background-size: cover;
+}
+
+header p {
+    padding: 2vw;
+    font-size: 2.5rem;
+    width: 40vw;
+    margin-left: 2vw;
+    margin-top: 15vh;
+}
+
+main {
+    padding: 5vw;
+    background-color: #EAE6E8;
+}
+
+main h1 {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.Salgados {
+    display: flex;
+}
+
+.Doces {
+    display: flex;
+}
+
+.tipo-receita {
+    margin: 3vw 9vw;
+    font-size: 2.3rem;
+    font-weight: normal;
+}
+
+.card-receita {
+    background-color: #dacdd0;
+    margin: 2.5vw;
+    width: 50vw;
+    height: 20vw;
+    display: flex;
+    border-radius: 2vw;
+}
+
+.card-receita div {
+    display: block;
+}
+
+.card-receita div h3 {
+    width: 80%;
+    margin: 15% 15%;
+    font-size: 1.8rem;
+}
+
+.card-receita div p {
+    width: 80%;
+    margin-left: 12%;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.card-receita img {
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.rodape {
+    display: flex;
+    background-color: #cbcbcb;
+    align-items: center;
+}
+
+.rodape img {
+    margin: 1.5vw 10vw;
+}
+
+.rodape a {
+    margin: 3vw;
+    text-decoration: none;
+    color: black;
+    font-size: 1.7rem;
+}
+
