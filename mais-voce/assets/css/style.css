@@ -41,6 +41,7 @@ header p {
     width: 40vw;
     margin-left: 2vw;
     margin-top: 15vh;
+    overflow: hidden;
 }
 
 main {
@@ -115,4 +116,3 @@ main h1 {
     color: black;
     font-size: 1.7rem;
 }
-
